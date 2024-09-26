@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Dauphin</th>
+        <th>Prénom</th>
+        <th>Couleur</th>
+        <th>Métier</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Luc</td>
+        <td>Rouge</td>
+        <td>Policier</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jean</td>
+        <td>Bleu</td>
+        <td>Pompier</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Marc</td>
+        <td>Vert</td>
+        <td>Jardinier</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Auguste</td>
+        <td>Pourpre</td>
+        <td>Empereur</td>
+    </tr>
+    </tbody>
+</table>
+
+<form>
+    <label for="pseudo">Pseudo</label>
+    <input type="text" id="pseudo" name="pseudo"><br>
+
+    <label for="MDP">Mot de passe</label>
+    <input type="password" id="MDP" name="MDP"><br>
+
+    <label for="firstname">Prénom</label>
+    <input type="text" id="firstname" name="firstname"
+    placeholder="Votre prénom"><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="avatar">Avatar:</label>
+    <input type="file" id="avatar" name="avatar"><br>
+
+    <label for="country">Pays</label>
+    <select id="country" name="country">
+        <option value="Spain">Espagne</option>
+        <option value="France">France</option>
+        <option value="England">Angleterre</option>
+    </select><br>
+
+    <p>Quels sont vos fruits préférés ?</p>
+    <input type="checkbox" id="fruit1" name="fruit1" value="orange">
+    <label for="fruit1"> Orange</label>
+    <input type="checkbox" id="fruit2" name="fruit2" value="strawberry">
+    <label for="fruit2"> Fraise</label>
+    <input type="checkbox" id="fruit3" name="fruit3" value="pear">
+    <label for="fruit3"> Poire</label><br>
+
+    <p>Civilité</p>
+    <input type="radio" id="man" name="title" value="men">
+    <label for="man">Homme</label>
+    <input type="radio" id="woman" name="title" value="woman">
+    <label for="woman">Femme</label><br>
+    <br>
+
+    <label for="city">Ville</label>
+    <input type="text" id="city" name="city"><br>
+
+    <label for="postcode">Code Postal</label>
+    <input type="number" id="postcode" name="postcode"><br>
+
+    <label for="adress">Adresse</label>
+    <textarea id="adress" name="adress" rows="5" cols="20"></textarea><br>
+
+    <label for="birthday">Date de naissance</label>
+    <input type="date" id="birthday" name="birthday"><br>
+
+    <label for="gauge">Jauge</label>
+    <input type="range" id="gauge" name="gauge" min="0" max="50"><br>
+
+    <label for="phone">Téléphone</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"><br>
+
+    <label for="search">Recherche</label>
+    <input type="search" id="search" name="search"><br>
+
+    <label for="color">Couleur</label>
+    <input type="color" id="color" name="color"><br>
+
+    <label for="name">Nom</label>
+    <input type="text" id="name" name="name"
+    placeholder="test"><br>
+
+    <input type="button" onclick="join" value="s'inscrire"><br>
+
+    <input type="button" onclick="sign" value="s'inscrire autre bouton">
+    <input type="date">
+    <label for="yname">Votre nom</label>
+    <input type="text" id="yname" name="yname" value="michel" readonly>
+    <input type="submit" value="Envoyer">
+</form>
+</html>
